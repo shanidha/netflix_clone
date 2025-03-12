@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:netflix_clone/presentation/pages/main_page/widgets/screen_main_page.dart';
+import 'package:netflix_clone/presentation/pages/login/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           textTheme: const TextTheme(
               bodyLarge: TextStyle(color: Colors.white),
               bodyMedium: TextStyle(color: Colors.white))),
-      home: ScreenMainPage(),
+      home: const SplashScreen(),
     );
   }
 }
